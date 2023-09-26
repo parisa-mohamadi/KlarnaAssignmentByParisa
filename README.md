@@ -19,7 +19,7 @@ Kotlin programming language
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/parisa-mohamadi/RebtelAssignment.git
+git clone https://github.com/parisa-mohamadi/KlarnaAssignmentByParisa.git
 ```
 
 1. Open the project in Android Studio.
