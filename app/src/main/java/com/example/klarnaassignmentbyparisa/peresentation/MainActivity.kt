@@ -22,8 +22,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.klarnaassignmentbyparisa.peresentation.theme.DarkBlue
-import com.example.klarnaassignmentbyparisa.peresentation.theme.DeepBlue
 import com.example.klarnaassignmentbyparisa.peresentation.theme.KlarnaAssignmentByParisaTheme
 import com.example.klarnaassignmentbyparisa.peresentation.theme.Pink40
 import com.example.klarnaassignmentbyparisa.peresentation.theme.PurpleGrey40
