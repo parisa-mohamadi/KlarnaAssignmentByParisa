@@ -1,6 +1,6 @@
 # KlarnaAssignmentByParisa
 ## Country Details App
-This is an Android app that shows weather using modern Android development technologies.
+This is an Android app that display weather using modern Android development technologies.
 
 ## Features
 - Display weather in different hours related to location.
@@ -9,6 +9,7 @@ This is an Android app that shows weather using modern Android development techn
 - Dagger Hilt which provides a smooth dependency injection way in android.
 - Fetches weather data using Retrofit and displays it.
 - Uses gms:google Location Services for getting current location.
+- Each class has their own short comment to understad easily.
 
 ## Prerequisites
 Android Studio (latest version)
