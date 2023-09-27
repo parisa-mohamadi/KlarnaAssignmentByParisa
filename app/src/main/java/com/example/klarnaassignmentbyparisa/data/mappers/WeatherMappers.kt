@@ -10,6 +10,16 @@ import com.example.klarnaassignmentbyparisa.domain.weather.WeatherType
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
+/**
+ * Represents indexed weather data containing an index and associated WeatherData object.
+ * @param index The index indicating the position in a list.
+ * @param data The WeatherData associated with the index.
+ * Converts a WeatherDataDto into a map of WeatherData objects grouped by day.
+ * @return A map with day indices as keys and lists of WeatherData as values.
+ * Converts a WeatherDto into a WeatherInfo object containing weather data and current conditions.
+ * @return A WeatherInfo object with weather data per day and current weather information.
+ */
+
 private data class IndexedWeatherData(
     val index: Int,
     val data: WeatherData

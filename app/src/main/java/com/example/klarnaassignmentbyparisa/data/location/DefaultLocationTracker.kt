@@ -14,6 +14,14 @@ import kotlinx.coroutines.suspendCancellableCoroutine
 import javax.inject.Inject
 import kotlin.coroutines.resume
 
+/**
+ * DefaultLocationTracker is responsible for retrieving the current device location
+ * using the FusedLocationProviderClient and checking for necessary location permissions
+ * and GPS availability. It implements the LocationTracker interface for location tracking.
+ * @param locationClient The FusedLocationProviderClient instance for location retrieval.
+ * @param application The Android Application context.
+ */
+
 @ExperimentalCoroutinesApi
 class DefaultLocationTracker @Inject constructor(
     private val locationClient: FusedLocationProviderClient,

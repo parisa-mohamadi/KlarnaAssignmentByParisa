@@ -9,6 +9,12 @@ import com.example.klarnaassignmentbyparisa.domain.util.Resource
 import com.example.klarnaassignmentbyparisa.domain.weather.WeatherInfo
 import javax.inject.Inject
 
+/**
+ * WeatherRepositoryImpl is an implementation of the WeatherRepository interface,
+ * responsible for retrieving weather data from an external API.
+ * @param api The WeatherApi instance used for making API requests.
+ */
+
 class WeatherRepositoryImpl @Inject constructor(
     private val api: WeatherApi
 ): WeatherRepository {
