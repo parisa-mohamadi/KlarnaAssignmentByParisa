@@ -7,7 +7,6 @@ This is an Android app that shows weather using modern Android development techn
 - Uses MVI architecture for clean separation of concerns.
 - Utilizes Jetpack Compose for building UI components.
 - Dagger Hilt which provides a smooth dependency injection way in android.
-- Integrates Data Binding for efficient UI updates.
 - Fetches weather data using Retrofit and displays it.
 - Uses gms:google Location Services for getting current location.
 
@@ -41,7 +40,6 @@ The app follows the MVI architecture which is basically MVVM but with added feat
 - Retrofit: For making API requests and handling responses.
 - Jetpack Compose: For building modern and responsive UI.
 - Dagger Hilt: which provides a smooth dependency injection way in android.
-- Data Binding: For binding UI components to data sources.
 - LiveData: For observing data changes and updating the UI.
 - ViewModel: For managing UI-related data in a lifecycle-conscious way.
 - Coroutines: for asynchronous programming.
